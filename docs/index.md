@@ -39,7 +39,7 @@ Model Options:
     -d, --derive DERIVES
                         set struct derives
     -t, --add-table-name 
-                        Add #[table_name = x] before structs
+                        Add #[diesel(table_name = x)] before structs by default (-v 2) or #[table_name = x] with -v 1
 
 Proto Options:
     -p, --proto         Set as proto output

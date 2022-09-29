@@ -119,7 +119,7 @@ fn main() {
     opts.optflag(
         "t",
         "add-table-name",
-        "Add #[table_name = x] before structs",
+        "Add #[diesel(table_name = x)] for (default -v 2) or #[table_name = x] (for -v 1) before structs",
     );
     
 
